@@ -4,10 +4,15 @@ This project leverages federated learning to implement a privacy-preserving, dec
 
 Key Features:
 Federated Learning Framework: Enables decentralized training, where data stays on local devices, ensuring privacy and compliance with regulations like GDPR or HIPAA.
+
 ResNet-101 Architecture: Pretrained on ImageNet and fine-tuned for the lung image classification task, ensuring high accuracy.
+
 Loss Function: Utilizes CrossEntropyLoss with class weights to handle class imbalance effectively.
+
 Input Data: Processes RGB lung images with data augmentation to improve generalization and prevent overfitting.
+
 Performance Metrics: Evaluates the model using accuracy, precision, recall, and F1-score, specifically tailored for multiclass classification tasks.
+
 Optimization Strategies: Implements federated optimization techniques, learning rate scheduling, and weight decay, dropout for efficient and robust training.
 
 Objectives:
